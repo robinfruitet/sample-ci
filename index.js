@@ -11,7 +11,8 @@ api.get('/contacts', function(req, res, next) {
 })
 
 api.post('/contacts/:name', function(req, res, next) {
-	if (req.params)
+	if (req.params.name === 'exist')
+		return res.status(403).send();
 	res.send();
 })
 
