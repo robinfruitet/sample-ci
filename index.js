@@ -7,7 +7,7 @@ api.get('/', function(req, res, next) {
 })
 
 api.get('/contacts', function(req, res, next) {
-	res.send();
+	res.send([]);
 })
 
 api.post('/contacts/:name', function(req, res, next) {
