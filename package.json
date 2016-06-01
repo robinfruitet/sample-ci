@@ -1,0 +1,19 @@
+{
+  "name": "sample-ci",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robinfruitet/sample-ci.git"
+  },
+  "author": "robinfruitet",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/robinfruitet/sample-ci/issues"
+  },
+  "homepage": "https://github.com/robinfruitet/sample-ci#readme"
+}
