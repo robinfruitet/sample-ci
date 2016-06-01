@@ -2,7 +2,9 @@ var express = require('express');
 var api = express();
 var DEFAULT_PORT = 3000;
 
-api.get('/', function(req, res, next) {
+api.use(express.static("public"));
+
+api.get('/api', function(req, res, next) {
 	res.send("hello word");
 })
 
