@@ -3,7 +3,7 @@ var api = express();
 var DEFAULT_PORT = 3000;
 
 api.get('/', function(req, res, next) {
-	res.send([]);
+	res.send("hello word");
 })
 
 api.get('/contacts', function(req, res, next) {
