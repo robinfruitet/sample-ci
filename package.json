@@ -1,7 +1,7 @@
 {
   "name": "sample-ci",
   "version": "1.0.0",
-  "description": "",
+  "description": "test integration coninue",
   "main": "index.js",
   "scripts": {
     "test": "mocha"
